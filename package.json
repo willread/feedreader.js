@@ -6,10 +6,10 @@
 	"author": "William Blanchette <wb@collectivecognition.com>",
 	"repository": { 
 		"type": "git",
-		"url": "http://github.com/"
+		"url": "http://github.com/drastik/feedreader.js"
 	},
 	"bugs": {
-		"url": "http://github.com/"
+		"url": "http://github.com/drastik/feedreader.js"
 	},
 	"dependencies": {
 		"sax": ">=0.1.11",
