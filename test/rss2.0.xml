@@ -1,0 +1,40 @@
+<?xml version="1.0"?> 
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"> 
+	<channel> 
+		<title>Feed Reader</title> 
+		<link>http://feed.reader</link> 
+		<description>Feed Reader RSS Feed</description> 
+		<image> 
+			<url>http://feed.reader/feed.gif</url> 
+			<title>Feed Reader Image</title> 
+			<link>http://feed.reader</link> 
+		</image> 
+		<language>en-us</language> 
+		<copyright>Copyright &copy; 2011 Feed Reader</copyright> 
+		<generator>Feed Reader - http://feed.reader</generator>
+		<item>
+			<title><![CDATA[Item 1 Title]]></title>
+			<link>http://feed.reader/item/1</link>
+			<guid isPermaLink="true">http://feed.reader/item/1</guid>
+			<comments>http://feed.reader/item/1/comments</comments>
+			<description><![CDATA[Feed reader item #1 content.]]></description>
+			<category>Item</category>
+			<category>Number One</category>
+			<dc:creator><![CDATA[Feed Reader]]></dc:creator>
+			<pubDate>Fri, 14 Oct 2011 18:58:00 EDT</pubDate>
+			<author>FeedReader</author>
+		</item>
+		<item>
+			<title><![CDATA[Item 2 Title]]></title>
+			<link>http://feed.reader/item/2</link>
+			<guid isPermaLink="true">http://feed.reader/item/2</guid>
+			<comments>http://feed.reader/item/2/comments</comments>
+			<description><![CDATA[Feed reader item #2 content.]]></description>
+			<category>Item</category>
+			<category>Number Two</category>
+			<dc:creator><![CDATA[Feed Reader]]></dc:creator>
+			<pubDate>Sun, 16 Oct 2011 21:32:00 EDT</pubDate>
+			<author>FeedReader</author>
+		</item>
+	</channel>
+</rss>

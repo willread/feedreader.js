@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" lang="en-us"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Feed Reader</title>
+	<id>http://feed.reader</id>
+	<updated>2003-12-13T18:30:02Z</updated>
+	<link rel="self" href="http://feed.reader/feed"/>
+	<link rel="alternate" href="http://feed.reader"/>
+	<subtitle>Feed Reader ATOM Feed</subtitle> 
+	<icon>http://feed.reader/feed.gif</icon> 
+	<logo>http://feed.reader/logo.jpg</logo> 
+	<rights>Copyright &copy; 2011 Feed Reader</rights> 
+	<generator>Feed Reader - http://feed.reader</generator>
+	<entry>
+		<id>http://feed.reader/item/1</id>
+		<title><![CDATA[Item 1 Title]]></title>
+		<link rel="alternate" href="http://feed.reader/item/1"/>
+		<content><![CDATA[Feed reader item #1 content.]]></content>
+		<category term="Item"/>
+		<category term="Number One"/>
+		<updated>2011-12-13T18:30:02-05:00</updated>
+		<published>2011-12-13T18:30:02-05:00</published>
+		<author>
+			<name>FeedReader<name>
+		</author>
+	</entry>
+	<entry>
+		<id>http://feed.reader/item/2</id>
+		<title><![CDATA[Item 2 Title]]></title>
+		<link rel="alternate" href="http://feed.reader/item/2"/>
+		<content><![CDATA[Feed reader item #2 content.]]></content>
+		<category term="Item"/>
+		<category term="Number Two"/>
+		<updated>2011-12-14T18:30:02-05:00</updated>
+		<published>2011-12-14T18:30:02-05:00</published>
+		<author>
+			<name>FeedReader<name>
+		</author>
+	</entry>
+</feed>

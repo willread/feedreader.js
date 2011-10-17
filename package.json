@@ -1,0 +1,21 @@
+{
+	"name": "feedreader",
+	"description": "Simple RSS / Atom Parser",
+	"tags": ["rss", "atom", "xml", "parse", "parser"],
+	"version": "0.1.0",
+	"author": "William Blanchette <wb@collectivecognition.com>",
+	"repository": { 
+		"type": "git",
+		"url": "http://github.com/"
+	},
+	"bugs": {
+		"url": "http://github.com/"
+	},
+	"dependencies": {
+		"sax": ">=0.1.11",
+		"request": ">=0.3.1"
+	},
+	"engines": ["node >= 0.3.6"],
+	"main": "./src/feedreader",
+	"scripts": { "test" : "node test/run.js" }
+}
