@@ -313,7 +313,14 @@ var feedreader = function(data, callback){
 			tags.push(n.name.toUpperCase());
 			
 			switch(n.name.toUpperCase()){
-			
+				
+				case "RDF:RDF":
+				
+					feed.spec = "RSS";
+					feed.version = 1;
+				
+				break;
+				
 				case "RSS":
 				
 					feed.spec = "RSS";
@@ -447,6 +454,8 @@ var feedreader = function(data, callback){
 	}
 	
 	parser.onend = function(){
+		
+		// TODO: Throw an error if we haven't successfully detected the file spec
 		
 		if(!error)
 			callback(null, feed);
