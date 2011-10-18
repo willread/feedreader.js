@@ -34,6 +34,46 @@ var recursiveCompare = function(data, expected){
 
 assert.ok(typeof feedreader == "function", "feedreader failed to load");
 
+// Test RSS 1.0 parsing
+
+fs.readFile(__dirname + "/rss1.0.xml", "UTF8", function (err, data) {
+
+	console.log("Testing RSS 1.0..");
+	
+	feedreader(data, function(err, feed){
+
+		var expected = {
+		
+			spec: "RSS",
+			version: 1,
+			title: "Feed Reader",
+			link: "http://feed.reader",
+			description: "Feed Reader RSS Feed",
+			image: "http://feed.reader/feed.gif",
+			items: 
+			[
+				{
+					title: "Item 1 Title",
+					link: "http://feed.reader/item/1",
+					content: "Feed reader item #1 content."
+				},
+				{
+					title: "Item 2 Title",
+					link: "http://feed.reader/item/2",
+					content: "Feed reader item #2 content."
+				} 
+			]
+			
+		};
+		
+		recursiveCompare(feed, expected);
+		
+		console.log("Passed!");
+			
+	});
+	
+});
+
 // Test RSS 2.0 parsing
 
 fs.readFile(__dirname + "/rss2.0.xml", "UTF8", function (err, data) {

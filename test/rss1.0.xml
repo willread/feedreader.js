@@ -1,0 +1,22 @@
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel> 
+		<title>Feed Reader</title> 
+		<link>http://feed.reader</link> 
+		<description>Feed Reader RSS Feed</description> 
+		<image> 
+			<url>http://feed.reader/feed.gif</url> 
+			<title>Feed Reader Image</title> 
+			<link>http://feed.reader</link> 
+		</image> 
+		<item>
+			<title><![CDATA[Item 1 Title]]></title>
+			<link>http://feed.reader/item/1</link>
+			<description><![CDATA[Feed reader item #1 content.]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Item 2 Title]]></title>
+			<link>http://feed.reader/item/2</link>
+			<description><![CDATA[Feed reader item #2 content.]]></description>
+		</item>
+	</channel>
+</rdf:RDF>
