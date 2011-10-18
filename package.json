@@ -2,7 +2,7 @@
 	"name": "feedreader",
 	"description": "Simple RSS / Atom Parser",
 	"tags": ["rss", "atom", "xml", "parse", "parser"],
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "William Blanchette <wb@collectivecognition.com>",
 	"repository": { 
 		"type": "git",
